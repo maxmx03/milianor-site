@@ -18,7 +18,7 @@
         class="flex flex-col justify-items-center items-center gap-2 md:gap-3"
       >
         <img
-          src="/src/images/max.webp"
+          src="max.webp"
           alt="max"
           class="h-32 md:h-40 border-none rounded-full"
         />
