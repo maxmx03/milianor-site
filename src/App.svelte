@@ -8,7 +8,9 @@
   <section
     class="flex flex-col rounded-lg p-10 gap-12 md:gap-0 w-2/3 bg-yellow-500 text-white"
   >
-    <div class="flex w-full justify-between items-center gap-5 md:gap-0">
+    <div
+      class="flex flex-col-reverse md:flex-row w-full justify-between items-center gap-5 md:gap-0"
+    >
       <div>
         <h1 class="font-bold text-2xl">Max Miliano</h1>
         <p>Estudante de Análise e Desenvolvimento de Sistemas</p>
