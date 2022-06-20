@@ -4,15 +4,17 @@
   const github = "https://github.com/maxmx03";
 </script>
 
-<main class="h-full w-full flex justify-center items-center drop-shadow-lg">
-  <section
-    class="flex flex-col rounded-lg p-10 gap-12 md:gap-0 w-2/3 bg-yellow-500 text-white"
+<main
+  class="h-full w-full flex justify-center items-center drop-shadow-lg bg-gray-800 lg:bg-white"
+>
+  <article
+    class="flex flex-col rounded-lg p-10 gap-12 w-2/3 bg-gray-800 text-white"
   >
-    <div
-      class="flex flex-col-reverse md:flex-row w-full justify-between items-center gap-5 md:gap-0"
+    <section
+      class="flex flex-col-reverse lg:flex-row w-full lg:justify-evenly lg:items-center gap-5"
     >
       <div>
-        <h1 class="font-bold text-2xl">Max Miliano</h1>
+        <h1 class="font-bold text-2xl mb-3 text-sky-500">Max Miliano</h1>
         <p>Estudante de Análise e Desenvolvimento de Sistemas</p>
       </div>
 
@@ -29,10 +31,10 @@
           <a href={linkedin} class="hover:text-slate-300">Linkedin</a>
         </div>
       </div>
-    </div>
+    </section>
 
-    <div class="flex flex-col w-full justify-around">
-      <h2 class="font-bold text-lg">Sobre</h2>
+    <section class="flex flex-col w-full">
+      <h2 class="font-bold text-lg mb-3 text-sky-500">Sobre</h2>
       <p>
         Experiente com desenvolvimento web e mobile, desenvolveu OdontoEasy, um
         dashboard para o laboratorio de odontólogia da sua faculdade.
@@ -42,8 +44,25 @@
         desligamento devido a pândemia, também foi instrutor no curso de lua na
         udemy.
       </p>
-    </div>
-  </section>
+    </section>
+
+    <section class="flex flex-col w-full">
+      <h2 class="font-bold text-lg mb-3 text-sky-500">
+        Principais Habilidades
+      </h2>
+      <ul class="list-disc list-inside">
+        <li>Javascript</li>
+        <li>Typescript</li>
+        <li>React</li>
+        <li>React Native</li>
+        <li>Next.js</li>
+        <li>Svelte</li>
+        <li>Node.js</li>
+        <li>GraphQl</li>
+        <li>Inglês</li>
+      </ul>
+    </section>
+  </article>
 </main>
 
 <style>
