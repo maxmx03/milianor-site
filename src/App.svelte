@@ -76,4 +76,8 @@
     height: 100%;
     width: 100%;
   }
+
+  :global(body) {
+    display: grid;
+  }
 </style>
