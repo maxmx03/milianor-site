@@ -5,7 +5,7 @@
 </script>
 
 <main
-  class="h-full w-full flex justify-center items-center drop-shadow-lg bg-gray-800 lg:bg-white"
+  class="h-fit w-fit lg:h-full lg:w-full flex justify-center items-center drop-shadow-lg bg-gray-800 lg:bg-white"
 >
   <article
     class="flex flex-col rounded-lg p-10 gap-12 w-2/3 bg-gray-800 text-white"
@@ -75,9 +75,5 @@
   :global(html, body) {
     height: 100%;
     width: 100%;
-  }
-
-  :global(body) {
-    display: grid;
   }
 </style>
