@@ -1,9 +1,9 @@
 export function Link(props) {
-  const { children, id } = props
+  const { children, ...rest } = props
 
   return (
     <a
-      id={id}
+      {...rest}
       className="hover:border-b-yellow hover:border-b-4 cursor-pointer"
     >
       {children}

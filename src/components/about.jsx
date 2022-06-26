@@ -2,7 +2,7 @@ import { Section } from '../atoms'
 
 export function About() {
   return (
-    <Section className="bg-gray100">
+    <Section className="bg-gray100" id="about">
       <div class="w-full">
         <p className="text-black100 text-2xl font-semibold">who am i</p>
         <h3 className="inline-block text-black text-6xl font-bold border-b-yellow border-b-4">
