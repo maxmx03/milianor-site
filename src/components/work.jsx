@@ -3,7 +3,7 @@ import { Section, CardImage } from '../atoms'
 export function Work() {
   return (
     <Section>
-      <div class="flex flex-col w-full lg:w-1/2">
+      <div class="flex flex-col w-full mb-20">
         <div className="self-center">
           <h3 className="text-black text-6xl font-bold border-b-yellow border-b-4">
             My Work
@@ -13,8 +13,8 @@ export function Work() {
           </p>
         </div>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-3 w-full lg:w-1/2 gap-3">
-        <CardImage src="work-1.jpg" alt="computer">
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 xl:w-2/3 gap-3">
+        <CardImage src="computer.jpg" alt="computer">
           <a
             href="https://github.com/maxmx03/milianor-vim"
             className="cursor-pointer"
@@ -22,7 +22,7 @@ export function Work() {
             Milianor-vim
           </a>
         </CardImage>
-        <CardImage src="work-2.jpg" alt="palette">
+        <CardImage src="palette.jpg" alt="palette">
           <a
             href="https://github.com/maxmx03/solarized.nvim"
             className="cursor-pointer"
@@ -30,10 +30,10 @@ export function Work() {
             Solarized.nvim
           </a>
         </CardImage>
-        <CardImage src="work-3.jpg" alt="toothbrush">
+        <CardImage src="toothbrush.jpg" alt="toothbrush">
           OdontoEasy (private)
         </CardImage>
-        <CardImage src="work-2.jpg" alt="palette">
+        <CardImage src="palette.jpg" alt="palette">
           <a
             href="https://github.com/maxmx03/milianor-theme"
             className="cursor-pointer"
@@ -41,7 +41,7 @@ export function Work() {
             Milianor-theme
           </a>
         </CardImage>
-        <CardImage src="work-4.jpg" alt="palette">
+        <CardImage src="moon.jpg" alt="moon">
           <a
             href="https://www.udemy.com/course/curso-de-lua-completo-2022/"
             className="cursor-pointer"
@@ -49,6 +49,14 @@ export function Work() {
             Lua Course
           </a>
         </CardImage>
+      </div>
+      <div className="mt-20">
+        <a
+          href="https://github.com/maxmx03"
+          className="flex justify-center items-center block bg-black hover:bg-black100 text-xl text-white font-semibold h-16 w-56 rounded-full"
+        >
+          GITHUB
+        </a>
       </div>
     </Section>
   )
