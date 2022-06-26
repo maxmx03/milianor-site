@@ -1,4 +1,4 @@
-import { Section, CardImage } from '../atoms'
+import { Section, CardImage, CardLink } from '../atoms'
 
 export function Work() {
   return (
@@ -14,46 +14,36 @@ export function Work() {
         </div>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 xl:w-2/3 gap-3">
-        <CardImage src="computer.jpg" alt="computer">
-          <a
-            href="https://github.com/maxmx03/milianor-vim"
-            className="cursor-pointer"
-          >
+        <CardImage src="computer.webp" alt="computer">
+          <CardLink href="https://github.com/maxmx03/milianor-vim">
             Milianor-vim
-          </a>
+          </CardLink>
         </CardImage>
-        <CardImage src="palette.jpg" alt="palette">
-          <a
-            href="https://github.com/maxmx03/solarized.nvim"
-            className="cursor-pointer"
-          >
+        <CardImage src="palette.webp" alt="palette">
+          <CardLink href="https://github.com/maxmx03/solarized.nvim">
             Solarized.nvim
-          </a>
+          </CardLink>
         </CardImage>
-        <CardImage src="toothbrush.jpg" alt="toothbrush">
+        <CardImage src="toothbrush.webp" alt="toothbrush">
           OdontoEasy (private)
         </CardImage>
-        <CardImage src="palette.jpg" alt="palette">
-          <a
-            href="https://github.com/maxmx03/milianor-theme"
-            className="cursor-pointer"
-          >
+        <CardImage src="palette.webp" alt="palette">
+          <CardLink href="https://github.com/maxmx03/milianor-theme">
             Milianor-theme
-          </a>
+          </CardLink>
         </CardImage>
-        <CardImage src="moon.jpg" alt="moon">
-          <a
-            href="https://www.udemy.com/course/curso-de-lua-completo-2022/"
-            className="cursor-pointer"
-          >
+        <CardImage src="moon.webp" alt="moon">
+          <CardLink href="https://www.udemy.com/course/curso-de-lua-completo-2022/">
             Lua Course
-          </a>
+          </CardLink>
         </CardImage>
       </div>
       <div className="mt-20">
         <a
           href="https://github.com/maxmx03"
-          className="flex justify-center items-center block bg-black hover:bg-black100 text-xl text-white font-semibold h-16 w-56 rounded-full"
+          target="_blank"
+          rel="noopener"
+          className="flex justify-center items-center bg-black hover:bg-black100 text-xl text-white font-semibold h-16 w-56 rounded-full"
         >
           GITHUB
         </a>

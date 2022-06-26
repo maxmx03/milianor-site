@@ -1,3 +1,5 @@
 export * from './link'
 export * from './section'
 export * from './card-image'
+export * from './card-link'
+export * from './icon'
