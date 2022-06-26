@@ -17,7 +17,13 @@ export function Header() {
       </div>
       <div className="col-span-3">
         <Nav />
-        <img src="laptop.webp" alt="old computer" />
+        <img
+          src="laptop.webp"
+          alt="old computer"
+          className="h-full w-full object-cover"
+          height={3495}
+          width={5243}
+        />
       </div>
     </>
   )

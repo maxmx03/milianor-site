@@ -3,7 +3,7 @@ import { Section, CardImage, CardLink } from '../atoms'
 export function Work() {
   return (
     <Section id="work">
-      <div class="flex flex-col w-full mb-20">
+      <div className="flex flex-col w-full mb-20">
         <div className="self-center">
           <h3 className="text-black text-6xl font-bold border-b-yellow border-b-4">
             My Work
